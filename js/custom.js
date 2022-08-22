@@ -92,7 +92,7 @@ fetch(
 // }
 
 function randomQuote() {
-  const filePath = "../json/quotes.json";
+  const filePath = "../JSON/quotes.json";
 
   $.getJSON(filePath, function (quotes) {
     const text = quotes[Math.floor(Math.random() * quotes.length)].quoteText;
